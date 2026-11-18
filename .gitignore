@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.egg-info/
+
+# Environments
+.venv/
+venv/
+env/
+.conda/
+
+# Build and test artifacts
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Frontend dependencies and build artifacts
+frontend/node_modules/
+frontend/dist/
+frontend/tsconfig.tsbuildinfo
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Experiments, datasets and test suites are not part of the published source release.
+# Research artifacts are reproducible from the documented protocols; raw data and
+# checkpoints stay local.
+experiments/
+test_datasets/
+tests/
+frontend/src/**/*.test.ts
+frontend/src/**/*.test.tsx
+frontend/src/test/
+frontend/test/
+
+# Keep pytest fixtures/support only if a source module imports them (none do).
